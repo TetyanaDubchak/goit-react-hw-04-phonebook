@@ -25,8 +25,8 @@ const getStorageContacts = () => {
 export const App = () => {
   const [contacts, setContacts] = useState(getStorageContacts);
   const [filter, setFilter] = useState('');
-  const [name, setName] = useState('');
-  const [number, setNumber] = useState('');
+  // const [name, setName] = useState('');
+  // const [number, setNumber] = useState('');
 
   useEffect(() => {
     localStorage.setItem(localStorageContactKey, JSON.stringify(contacts))
