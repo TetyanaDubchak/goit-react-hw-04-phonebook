@@ -59,8 +59,8 @@ export const App = () => {
     }
 
     setContacts(prevState => [ ...prevState, newContact]);
-    setName(prevState => ({ prevState, nameContact }));
-    setNumber(prevState => ({ prevState, numberContact }));
+    // setName(prevState => ({ prevState, nameContact }));
+    // setNumber(prevState => ({ prevState, numberContact }));
     
   }
 
